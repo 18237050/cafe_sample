@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>trip diary</title>
+        <meta name="discription" content="ただの旅行好きの大学生が今までの旅行をまとめるだけのサイト">
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap">
+        <link rel="stylesheet" href="../css/style_about.css">
+    </head>
+
+    <body>
+        <div id="home" class="home_page">
+            <header class="titlearea">
+                <div class="navbararea">
+                    <a class="hometitle" id="hometitle" href="home.html">旅行日記</a>
+                    <nav>
+                        <ul class="navlist">
+                            <li><a href="article.html">TRIP</a></li>
+                            <li><a href="about.html">MEMBER</a></li>
+                            <li><a href="#">CONTCT</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div>
+                    <h1 class="title_home">member introduction </h1>
+                    <p class="sub_title">メンバー紹介</p>
+                </div>
+            </header>
+        </div>

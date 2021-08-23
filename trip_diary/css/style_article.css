@@ -1,0 +1,172 @@
+@charset "utf-8";
+
+body{
+    font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ pro W3", sans-serif;
+    line-height: 1.7rem;
+    color: #fff;
+    background-color:rgba(215,206,187,.5);
+}
+/*header*/
+
+a{
+    text-decoration: none;
+}
+#hometitle{
+  font-size: 2rem;
+  font-family: sans-serif;
+  color: #fff
+}
+#hometitle :hover{
+    color: aqua;
+}
+.navbararea{
+    padding: 20px;
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    justify-content: space-between;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    color:#fff;
+}
+
+.navlist li{
+    margin-right: 15px;
+    color: #fff;
+}
+.navlist a{
+    color: #fff;
+    font-family:sans-serif;
+}
+.navlist a:hover{
+    color: aqua;
+
+}
+.home_page{
+    background-image: url(../images/article_head.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:50vh;
+}
+
+.title_home{
+    text-align: center;
+    font-family: 'Philosopher',serif;
+    font-size: 5rem;
+    margin-top: 10vh
+
+}
+
+.sub_title{
+    font-size: 2rem;
+    font-family: serif;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+article{
+    width: 74%;
+}
+.titlesentence{
+    margin-top: 6%;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 1.25rem;
+    color: #000;
+}
+
+aside{
+    width: 22%;
+}
+
+.news-contents{
+    display:flex;
+    justify-content: space-between;
+    color: #000;
+    margin: 20px;
+}
+
+.articletitle{
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 2rem;
+    border-bottom: 1px solid #000;
+}
+
+.article1{
+    background-color:  rgba(175,160,127,.5);
+    border-radius: 10px;
+}
+
+.articleposition{
+    display: flex;
+    justify-content: start;
+    padding: 2% 3% 2% 3%;
+    margin-top: 7%;
+}
+
+.articleimage{
+    padding-top: 3%;
+    width: 32%;
+    height: 18%;
+}
+.articlesentence{
+    padding-left: 5%;
+    width: 60%;
+}
+
+.next{
+    text-align: end;
+}
+.next a:hover{
+    color:  aqua ;
+}
+
+/*aside*/
+aside{
+    color: #000;
+}
+.sub_trip{
+    display: list-item;
+    padding:10px 0 0 5px;
+    list-style-type: disc;
+    margin-top: 10%;
+    border-bottom: 1px solid #000;
+}
+
+.sub_trip li{
+    font-size: 1.25rem;
+    margin-bottom: 5%;
+}
+.sub_trip a:hover{
+    color: aqua;
+}
+.asidetitle{
+    padding-bottom:5px;
+    font-size: 2rem;
+    text-align: center;
+    border-bottom: 1px #000 solid;
+}
+
+.backtop { 
+    width:DIVの横幅x;
+    height:DIVの高さ;
+    position:fixed;
+    z-index:1;
+    top: 80%;
+    right: 0;
+}
+/*footer*/
+.foot{
+    background:#5b5c76;
+    text-align: center;
+    padding: 26px 0;
+}
+
+.foot p{
+    color: #fff;
+    font-size: 0.875rem;
+}
+

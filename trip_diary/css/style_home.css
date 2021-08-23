@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+
+
+body{
+    font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ pro W3", sans-serif;
+    line-height: 1.7rem;
+    color: #fff;
+    text-align: center;
+}
+/*header*/
+
+a{
+    text-decoration: none;
+}
+#hometitle{
+  font-size: 2rem;
+  font-family: sans-serif;
+  color: #fff
+}
+.navbararea{
+    padding:20px;
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    justify-content: space-between;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    color:#fff;
+}
+
+.navlist li{
+    margin-right: 15px;
+    color: #fff;
+}
+.navlist a{
+    color: #fff;
+    font-family:sans-serif;
+}
+.navlist a:hover{
+    color: aqua;
+
+}
+.title_home{
+    font-size: 7rem;
+    color: #fff;
+    text-align: center;
+    margin-top: 35vh;
+    font-family: 'Philosopher',serif;
+}
+.sub_title{
+    font-size: 2rem;
+    font-family: selif;
+    text-align: center;
+    color:#fff;
+    margin-top:15vh;
+}
+.home_page{
+    background-image: url(../images/uyumi_haikei.jpg);
+    background-size:cover;
+    background-position:center top;
+    min-height: 100vh;
+    margin-top: 0;
+}
+.button{
+    font-size: 1.375rem;
+    background: #12d0f16e;
+    color: #c0cdcf;
+    border-radius: 5px;
+    padding: 18px 32px;
+    margin-top: 10%
+}
+
+.script{
+    margin-top: 3%
+}
+

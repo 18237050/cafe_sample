@@ -1,0 +1,154 @@
+@charset "utf-8";
+
+body{
+    font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ pro W3", sans-serif;
+    line-height: 1.7rem;
+    color: #fff;
+    background-color:rgba(215,206,187,.5)
+}
+/*header*/
+
+a{
+    text-decoration: none;
+}
+#hometitle{
+  font-size: 2rem;
+  font-family: sans-serif;
+  color: #fff
+}
+#hometitle :hover{
+    color: aqua;
+}
+.navbararea{
+    padding: 20px;
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    justify-content: space-between;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    color:#fff;
+}
+
+.navlist li{
+    margin-right: 15px;
+    color: #fff;
+}
+.navlist a{
+    color: #fff;
+    font-family:sans-serif;
+}
+.navlist a:hover{
+    color: aqua;
+
+}
+.home_page{
+    background-image: url(../images/article_head.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:50vh;
+}
+
+.title_home{
+    text-align: center;
+    font-family: 'Philosopher',serif;
+    font-size: 5rem;
+    margin-top: 10vh
+
+}
+
+.sub_title{
+    font-size: 2rem;
+    font-family: serif;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.backtop { 
+width:DIVの横幅x;
+height:DIVの高さ;
+position:fixed;
+z-index:1;
+top: 80%;
+right: 0;
+}
+
+/*members_introduction*/
+.members_title{
+    font-size: 3rem;
+    text-align: center;
+    color: black;
+    margin: 10% 30% 0% 30%;
+    padding-bottom: 10px;
+    width: 40%;
+}
+.members_title{
+    border-bottom: 1px solid #000;
+}
+
+.members_introduction p{
+    font-size: 1.25rem;
+    text-align: center;
+    color: black;
+    padding: 5%;
+}
+
+/*membersgrid*/
+.membersgrid{
+    margin: 5% 3% 15% 3%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 35rem 35rem 35rem;
+    gap: 5%;
+}
+.membersgrid .item{
+    background-color: rgba(175,160,127,.5);
+    text-align: center;
+    color: #000;
+    border-radius: 10%;
+}
+.membersgrid img{
+    width: 15rem;
+    height: 15rem;
+    padding-bottom: 7px;
+}
+
+.membersgrid h2{
+    color: #000;
+}
+
+.introductiontitle{
+    padding-top:10px;
+}
+.membersgrid .introductionsentence{
+    color: #000;
+    text-align: start;
+    padding: 10px 5px 5px 5px;
+    height: 30%;
+}
+.linkjump{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.twitter img,
+.facebook img{
+    width: 4vw;
+    height: 7.5vh;
+}
+
+/*footer*/
+.foot{
+    background: #5b5c76;
+    text-align: center;
+    padding: 26px 0;
+}
+
+.foot p{
+    color: #fff;
+    font-size: 0.875rem;
+}
